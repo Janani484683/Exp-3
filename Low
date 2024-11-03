@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main(){
+int sum=0;
+float avarage ;
+for (int i =1;i<=10;i++){
+sum=sum+i;
+}
+printf("sum of 10 no is:%d",sum);
+avarage=sum/10.0;
+printf("The avarage :%f",avarage);
+}
